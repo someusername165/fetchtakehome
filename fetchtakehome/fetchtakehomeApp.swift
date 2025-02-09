@@ -11,7 +11,7 @@ import SwiftUI
 struct fetchtakehomeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(fetchViewModel: FetchViewModel())
         }
     }
 }
